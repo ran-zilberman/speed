@@ -1,0 +1,19 @@
+{
+  "name": "create-dummy-app",
+  "version": "1.0.0",
+  "description": "Playing around with starter templates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranzwix/create-dummy-app.git"
+  },
+  "author": "Ran Zilberman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ranzwix/create-dummy-app/issues"
+  },
+  "homepage": "https://github.com/ranzwix/create-dummy-app#readme"
+}
