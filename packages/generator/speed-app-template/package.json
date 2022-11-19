@@ -1,0 +1,21 @@
+{
+  "name": "speed-app-template",
+  "version": "1.0.0",
+  "description": "Speed app template",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "echo \"TODO\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranzwix/speed.git"
+  },
+  "author": "Ran Zilberman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ranzwix/speed/issues"
+  },
+  "homepage": "https://github.com/ranzwix/speed#readme"
+}
