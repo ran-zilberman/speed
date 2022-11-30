@@ -1,15 +1,7 @@
-import { Command } from 'commander';
-const chalk  = require("chalk");
+const program = require('commander');
 
-export function init(): Command {
-    const program = new Command();
-    program
-        .description('Generates a speed framework project')
-        .argument(chalk.green('<project-directory>'), 'Project directory to bootstrap')
+import './commander/create-speed-app';
 
-    return program;    
-}
-
-export function run(commandLine: Command) {
-    commandLine.parse(process.argv);
+export function runCommand() {
+    program.parse(process.argv);
 }

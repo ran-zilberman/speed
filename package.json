@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "Playing around with starter templates",
   "scripts": {
-    "build": "npm run build --workspaces",
+    "build": "yarn workspaces run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "private": true,
   "workspaces": [
     "./packages/*",
     "./packages/generator/*"
@@ -19,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/ranzwix/create-dummy-app/issues"
   },
-  "homepage": "https://github.com/ranzwix/create-dummy-app#readme"
+  "homepage": "https://github.com/ranzwix/create-dummy-app#readme",
+  "dependencies": {
+    "typescript": "^4.9.3"
+  }
 }

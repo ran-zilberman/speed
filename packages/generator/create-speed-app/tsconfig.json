@@ -1,13 +1,15 @@
 {
     "compilerOptions": {
       "outDir": "dist",
-      "rootDir": "src",
       "module": "commonjs",
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
       "types": [
         "node"
       ]
     },
     "include": [
-      "src/**/*.*"
+      "src/**/*.*",
+      "package.json",
     ]
   }
