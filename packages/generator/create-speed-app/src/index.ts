@@ -1,7 +1,8 @@
-const program = require('commander');
+import { program } from 'commander'
 
-import './commander/create-speed-app';
+import createSpeedApp from './commander/create-speed-app';
 
 export function runCommand() {
+    program.addCommand(createSpeedApp);
     program.parse(process.argv);
 }
