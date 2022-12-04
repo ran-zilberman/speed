@@ -1,16 +1,11 @@
 import { Command } from 'commander';
-import packageJson from '../../package.json';
-
+import questions from '../questions';
+import inquirer from 'inquirer';
 import chalk from 'chalk';
 
-let projectName;
-
-export default new Command(packageJson.name)
-.version(packageJson.version)
-.description('Generates a speed framework project')
-.argument('<project-directory>')
-.usage(`${chalk.green('<project-directory>')} [options]`)
-.action(name => {
-    projectName = name;
+export default new Command('scaffold')
+.description('Generates a speed framework project into the current working directory.\nIs default command if none is specified')
+.action(() => {
+    inquirer.prompt(questions).then(answers => console.log(JSON.stringify(answers)));
 })
 .option("--verbose", "print additional logs");

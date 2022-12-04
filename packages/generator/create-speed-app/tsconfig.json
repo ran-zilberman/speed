@@ -1,6 +1,7 @@
 {
     "compilerOptions": {
       "outDir": "dist",
+      // "rootDirs": ["src"],
       "module": "commonjs",
       "resolveJsonModule": true,
       "esModuleInterop": true,
@@ -9,7 +10,6 @@
       ]
     },
     "include": [
-      "src/**/*.*",
-      "package.json",
+      "src/**/*.*"
     ]
   }
