@@ -1,2 +1,2 @@
-# create-dummy-app
+# create-speed-app
 Exercising npm starter templates
